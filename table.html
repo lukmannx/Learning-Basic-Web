@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 
+        tag table
+        1. table
+        2. thead
+        3. tbody
+        4. tfoot
+        5. tr = table row
+        6. th = table head
+        7. td = table data
+     -->
+
+    <!-- example table -->
+    <table border="1" style="background: rgb(137, 137, 243); width:50%" cellpadding="10">
+        <thead>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pawas</td>
+                <td>RPL A</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Galang</td>
+                <td>RPL A</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Marpa</td>
+                <td>RPL A</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <p>tabel apa ini??</p>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <!-- colspan dan rowspan -->
+
+    <table border="3" style="width: 30%; height: 500px;" cellpadding="10">
+        <tr>
+            <td colspan="2" bgcolor="green"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="3" style="background: yellow;"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
