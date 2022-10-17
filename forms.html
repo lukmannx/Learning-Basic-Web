@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="index.html">
+        <!-- fieldset membuat garis di sekitar -->
+        <fieldset> 
+            <!-- Legend untuk teks login form -->
+            <legend>Login Form</legend>
+
+            <p>
+                <label>Name</label>
+                <input type="text" name="name" required>
+            </p>
+            <p>
+                <label>Email</label>
+                <input type="email" name="name" required>
+            </p>
+            <p>
+                <label>No Telp</label>
+                <input type="number" name="name" required>
+            </p>
+            <p>
+                <label>Gender</label>
+                <select name="jenis_kelamin" required>
+                    <option value="">Pilih jenis kelamin</option>
+                    <option value="Laki Laki">Laki Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
+            </p>
+            <p>
+                <label>Password</label>
+                <input type="password">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
