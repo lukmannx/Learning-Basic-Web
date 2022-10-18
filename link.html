@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* mostly
+        1. background color (HSL, RGB, HEX)
+        2. background image
+        3. background repeat (repeat-y) */
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+    }
+
+    #btn_google{
+        text-decoration: none;
+        color: #ff0000;
+    }
+
+    .btn_yt{
+        background: #ff0000;
+        color: #fff;
+        text-decoration: none;
+        padding: 20px 30px;
+        font-weight: bold;
+    }
+
+    .navbar{
+        width: 100%;
+        height: 50px;
+        background: #08c;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        margin: 20px;
+        list-style: none;
+    }
+
+    li a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .brand h4{
+        color: #fff;
+    }
+
+    .daftar{
+        background: #ff0000;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 30px;
+        font-weight: bold;
+        border-radius: 30px;
+    }
+
+    .btn_daftar{
+        color: #fff;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div class="container">
+        <!-- <a id="btn_google" href="http://google.com" target="_blank" rel="noopener noreferrer">Kunjungi Situs Google</a>
+
+        <a class="btn_yt" href="http://youtube.com">Subrek</a> -->
+
+        <div class="navbar">
+            <div class="brand">
+                <h4>IDN Training</h4>
+            </div>
+            <ul>
+                <li><a href="http://#">Home</a></li>
+                <li><a href="http://#">Profile</a></li>
+                <li><a href="http://#">About</a></li>
+                <li><a href="http://#">Contact</a></li>
+            </ul>
+            <div class="daftar">
+                <a href="#" class="btn_daftar">Daftar Sekarang</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

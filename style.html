@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .rgb {
+            width: 100px;
+            height: 100px;
+            background: rgb(85, 197, 253);
+            text-align: center
+        }
+
+        .hex {
+            width: 100px;
+            height: 100px;
+            background: #fd5555;
+            text-align: center
+        }
+
+        .hsl {
+            width: 100px;
+            height: 100px;
+            background: hsl(62, 98%, 66%);
+            text-align: center;
+        }
+
+        .card {
+            background-color: #f2f2f2;
+            width: 300px;
+            height: 200px;
+        }
+        .bg-img{
+            width: 600px;
+            height: 400px;
+            background-image: url(https://static9.depositphotos.com/1036708/1164/i/450/depositphotos_11645416-stock-photo-lake-tahoe.jpg);
+        }
+        .repeat{
+            width: 100vw;
+            height: 100vh;
+            background-image: url(https://static9.depositphotos.com/1036708/1164/i/450/depositphotos_11645416-stock-photo-lake-tahoe.jpg);
+            background-repeat: no-repeat;
+        }
+        /* repeat
+            1. repeat x => Looping gambar secara horizontal
+            2. repeat y => Looping gambar secara vertikal
+            3. no repeat => Gambar tidak akan di looping
+            4. defaut => Gambar akan di looping secara verikal dan horizontal
+        */
+        .att{
+            width: 200vw;
+            height: 100px;
+            background-image: url(https://static9.depositphotos.com/1036708/1164/i/450/depositphotos_11645416-stock-photo-lake-tahoe.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .shorthand{
+            width: 80%;
+            height: 80%;
+            background: url(https://images.unsplash.com/photo-1602874352191-284c5a6c2770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGVhY2VmdWwlMjBsYWtlfGVufDB8fDB8fA%3D%3D&w=1000&q=80) no-repeat left;
+            border: 1px solid #ffff;
+        }
+        /* Mostly
+            1. background-color (HSL, HEX, RGB)
+            2. background-image
+            3. backgroung-repeat(repeat-y, repeat-x, no-repeat)
+            4. backgroung-attachment
+            5. background-position(left, right, center)
+         */
+
+         .gradient{
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(to top right, #08c, #00f836);
+         }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Coloring CSS -->
+
+        <!-- 1. RGB(Red, Green, Blue) -->
+
+        <!-- <div class="rgb">Ini RGB</div> -->
+
+        <!-- 2. Hexa Color (0-9, a-f) -->
+        <!-- <div class="hex">Ini HexaColor</div> -->
+
+        <!-- 3. HSL (Hue, Saturation, Light) -->
+        <!-- <div class="hsl">Ini HSL</div>-->
+
+
+        <!-- <div class="car"></div> -->
+        <!-- <div class="bg-img"></div> -->
+        <!-- <div class="repeat"></div> -->
+        <!-- <div class="shorthand"></div> -->
+        <div class="gradient"></div>
+
+
+    </div>
+    <!-- <div class="att"></div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium asperiores accusantium rerum corporis fugiat explicabo placeat ab iure itaque voluptate, minus ipsam non unde odit officiis omnis necessitatibus est blanditiis numquam eos illo quis nisi at. Voluptatem, fugit quidem rerum dicta temporibus ducimus vitae explicabo nostrum, eos atque magni consequuntur aperiam maiores magnam obcaecati. Non vero expedita maxime sequi, quam in minus necessitatibus veniam adipisci iure minima voluptatum qui quibusdam dolore optio nulla nobis corporis ullam repellat nihil quas. Aperiam nam at totam maxime ratione quibusdam dolorem iure adipisci optio tenetur eos provident dolores saepe animi consectetur, dolorum atque. Quia ipsa consequuntur, dolorum nesciunt dicta facilis repellendus natus distinctio libero maxime eligendi? Consequatur voluptate harum earum ipsum maxime dolor quidem quo quae reiciendis nemo natus nesciunt, molestiae sit rem quod nisi eius? Soluta iusto asperiores a commodi laboriosam temporibus amet aliquam modi in magnam? Quae ut eveniet delectus voluptate ex odio omnis, ad a nam harum eos ipsum magnam id, minus beatae. Eaque, quo. Sed quae unde, a corporis adipisci quisquam quibusdam tempora dolores, ipsum, nemo tempore perferendis illum quidem officiis? Asperiores iure in, beatae ullam non possimus fuga ratione repellat harum, exercitationem impedit eius aut consequuntur delectus hic at? Quibusdam aperiam, sequi facere dolores suscipit voluptatibus vel, nemo earum quis quas quasi aliquam iure odit. Perferendis neque sit aliquid unde magnam odit voluptas quos dicta nobis adipisci, expedita ullam facilis similique doloremque. Possimus praesentium distinctio quod atque corrupti, aliquid dignissimos doloribus ducimus modi libero incidunt minus nobis, repellendus voluptate qui? Pariatur odio id vel laudantium voluptates eius dignissimos, recusandae impedit a, commodi vitae distinctio, et similique voluptas ducimus nemo eveniet facere natus! Laboriosam veniam error porro doloremque ex aut ea provident ipsam repellat, natus, voluptates quod maxime excepturi eligendi! Sint, consequuntur vero. Molestiae, ducimus eius nulla suscipit iure optio. Unde aliquid sint deleniti nobis vitae temporibus rem tenetur nostrum, molestias rerum, nam libero error voluptatem distinctio hic harum ut eos animi accusantium possimus pariatur assumenda. Expedita nisi dolorum earum minus alias aspernatur rerum aliquam similique, recusandae reiciendis ullam non, sequi harum. Repudiandae voluptas quis assumenda quos fugiat cupiditate, autem pariatur distinctio animi a aut nulla itaque? Voluptatibus doloribus enim error! Saepe, ex tenetur. Impedit esse alias doloribus officia harum sint omnis quibusdam ad quae voluptate consequuntur necessitatibus, modi ea quisquam deserunt consequatur, dignissimos neque ipsum illum quo animi? Eos ad dolorum labore consequatur totam. Accusamus culpa vitae deserunt! Pariatur maiores ex tempora saepe. Magni at molestias reiciendis, reprehenderit laudantium minima, quibusdam quisquam, fuga nesciunt facere cum sunt rerum quod incidunt ipsum tempore fugiat unde cumque autem commodi corporis non. Maiores sint dolor, laudantium labore molestias ipsum et eveniet odio facere minus mollitia explicabo sapiente provident doloremque perspiciatis id sit blanditiis! Error accusamus veniam sed eum explicabo eligendi consectetur! Sunt hic vel, tenetur omnis dolorum totam? Atque, porro error harum beatae cumque mollitia sapiente facere at est. Ea iste quo quae. Deserunt officiis explicabo amet sint, quos voluptatum? Cum distinctio obcaecati veniam voluptas illum. Animi minus exercitationem recusandae iure blanditiis dolor ipsum praesentium, harum assumenda, tempore repellendus enim ipsa commodi eius laboriosam eum perspiciatis repudiandae nulla voluptas! Quis accusamus saepe aperiam blanditiis non id voluptatem totam temporibus veniam, dignissimos dolores laboriosam hic, placeat soluta obcaecati dicta iste numquam molestias culpa harum sit inventore consequatur odit! Rerum officiis accusantium repellat molestias dolores non fugit fugiat repudiandae eligendi, esse asperiores dolorum aut doloribus, perferendis aspernatur praesentium dolorem consectetur quas? Pariatur voluptates explicabo consectetur, optio, magni dolores aspernatur magnam quod error blanditiis numquam voluptate quisquam perspiciatis debitis voluptatibus facilis illo reprehenderit ex iste tenetur sit nesciunt corrupti. Quasi culpa natus eum eveniet inventore error aspernatur eius, iste, eligendi dolores reiciendis quidem! Rem molestiae explicabo possimus animi voluptatibus aliquam id ullam ut tenetur. Animi adipisci harum neque officia officiis repellat quos odio aut est quidem fugit blanditiis saepe numquam magnam quasi optio vero delectus, temporibus sunt. Praesentium, eius quo. Maxime ipsam qui earum consectetur possimus tempora aliquid quam deserunt reiciendis quas, debitis libero magni dolorum nihil numquam ducimus praesentium quisquam dolore itaque autem? Earum nihil voluptatum dolorum rerum asperiores ea, perferendis neque atque modi doloribus dignissimos unde pariatur aperiam quibusdam nostrum, reiciendis odit amet eligendi dolore reprehenderit ipsum illum consequuntur. Officia delectus perspiciatis minima voluptates nemo esse a iure reiciendis velit fugiat, impedit beatae illo aut laboriosam nam? Perspiciatis pariatur laborum velit ab ad, nulla commodi fuga molestiae nihil necessitatibus quasi corporis, omnis nam hic rerum excepturi exercitationem neque! Facilis, ratione. Asperiores exercitationem cumque porro, nulla possimus enim perferendis quia et ex rerum assumenda debitis nam dolorum iste, doloribus nemo? Illo sint alias perspiciatis, omnis accusantium maiores officia aliquam laudantium nesciunt pariatur odio beatae consequuntur iusto nulla sequi sit exercitationem, quis, animi autem? Cumque aliquam hic nulla? Beatae necessitatibus officiis laudantium, ex iure dolorum natus consequuntur? Obcaecati a officia amet, enim quasi accusantium fuga illum deleniti sequi eum quam? Quasi magni asperiores nobis, nam numquam odit deleniti alias sint commodi cumque amet officia similique repellat at? Necessitatibus soluta consequuntur nesciunt sapiente eum odio saepe reprehenderit perspiciatis aperiam velit, similique facilis quibusdam est esse sed aliquid? Aspernatur, at rem! Harum consequuntur nostrum deleniti illo, doloremque modi asperiores, labore tempore sint omnis commodi dicta unde praesentium, odio error et rem accusamus ad vero voluptas vel sapiente voluptatum eos! Maxime, porro consequatur dolor dolores minus corporis beatae, magni rerum soluta ratione, dignissimos non. Nemo nisi cupiditate aut sit, quam velit accusamus perspiciatis provident culpa! Reiciendis excepturi accusantium voluptatibus delectus ex et, magni modi eligendi rerum consequuntur. Aperiam non repellendus, explicabo corporis dolores repellat laudantium voluptatem nam enim voluptatibus atque deleniti nobis, officiis officia, saepe ad voluptate laboriosam cum quisquam fugit. Hic voluptatum, quod suscipit exercitationem expedita laudantium consequuntur architecto ea aut quae in eveniet ullam eius, doloremque saepe! Obcaecati modi iusto amet aliquid at nihil doloribus dicta, possimus culpa ipsum vel assumenda voluptatem aut quaerat debitis, eum cum esse fuga asperiores blanditiis labore eligendi nobis! Excepturi, velit! Quidem magnam ratione mollitia, cupiditate eius atque sapiente officia delectus fugiat aperiam? Eius perferendis blanditiis id modi magnam earum ipsum.</p>
+    </div> -->
+
+</body>
+
+</html>
