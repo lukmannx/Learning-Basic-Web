@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #08c;
+        }
+        .container-fluid{
+            width: 100vw;
+            height: 100vh;
+            background-color: #08c;
+        }
+        .item{
+            width: 200px;
+            height: 50px;
+            background-color: aliceblue;
+            margin: 10px;
+        }
+        .wrap{
+            width: 80%;
+            height: 500px;
+            display: flex;
+            flex-wrap: nowrap;
+            background: #fff;
+        }
+        .block{
+            width: 400px;
+            height: 100px;
+            background: #1c1c1bc1;
+            margin: 10px;
+        }
+        .area{
+            width: 80%;
+            height: 200px;
+            margin: 10px;
+            border: 1px #7e7e7e solid;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .brand{
+            width: 300px;
+            height: 100%;
+            background: #f00;
+        }
+
+        .search{
+            width: 300px;
+            height: 100%;
+            background: #ff0;
+        }
+
+        .login{
+            width: 300px;
+            height: 100%;
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <!-- 
+        Flexbox vs Grid
+     -->
+
+     <!-- Flexbox atau Flex -->
+
+     <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+     </div>
+
+     <!-- 
+        Flex Direction :
+        1. Row (default) : Item akan tampil horizontal kiri ke kanan
+        2. Row-reverse : Kebalikan Row
+        3. Column : Item akan tampil vertikal atas ke bawah
+        3. Column-reverse : Kebalikan Column
+      -->
+
+      <!-- Wrapping -->
+      <!-- flex wrap :
+        Secara default dia akan membuat sebuah row dan meresize ukuran elemen yang ada di dalamnya
+        1. nowrap (default) :  -->
+
+      <div class="container">
+        <div class="wrap">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+      </div>
+
+      <!-- Alignment -->
+    <!-- 1. Justify-content : memindahkan element secara horizontal.
+         2. Align-items : memindahkan element secara vertical.
+         justify-content :
+         -start (default) :semua element mulai dari kiri
+         -center : semua element mulai dari tengah
+         -end : semua element mulai dari kanan
+         Align-items :
+         -start (default) :semua element mulai dari atas
+         -center : semua element akan pindah ke tengah vertical
+         -end : semua element akan pindah ke bawah vertical
+        -->
+    <div class="container">
+        <div class="area">
+            <div class="brand"></div>
+            <div class="search"></div>
+            <div class="login"></div>
+        </div>
+    </div>
+
+</body>
+</html>

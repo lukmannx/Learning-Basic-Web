@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .translate{
+        width: 400px;
+        height: 200px;
+        background: #08c;
+        transition: 0.30s;
+    }
+
+    .translate:hover{
+        transform: translate(0px, -100px);
+    }
+
+    .rotate{
+        width: 400px;
+        height: 200px;
+        background: #08c;
+    }
+
+    .rotate:hover{
+        transform: rotate(30deg);
+        background: #00ffff;
+    }
+
+    .scale{
+        width: 400px;
+        height: 200px;
+        background: #08c;
+        transition: 2s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .scale:hover{
+        transform: scale(2, 2);
+        transition-delay: 1s;
+    }
+</style>
+<body>
+    
+    <!-- Transform ada 2 :
+    1. 2d
+        - Translate
+        - Rotate
+        - Scale
+        - Skew
+        - Matriks
+    
+    2. 3d
+        - Rotate 
+    -->
+
+    <!-- Contoh animasi translate -->
+
+    <div class="container">
+        <div class="translate">
+            <p>Translate hover</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="rotate">
+            <p>Rotate Hover</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="scale">
+            <p>Scale Hover</p>
+        </div>
+    </div>
+
+    <a href="#" class="btn-login"></a>
+    <a href="#" id="btn-login"></a>
+
+</body>
+</html>
