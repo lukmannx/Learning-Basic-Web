@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.bg-blur-black{
+    background-color: rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+}
+
+.overview{
+    width: 100vw;
+    height: 150vh;
+    background: rgb(0, 0, 0);
+}
+
+.desc{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.title-user{
+    font-size: 5em;
+    line-height: 100px;
+}
+
+.name{
+    font-size: 2em;
+}
+
+.about{
+    width: 100vw;
+    height: 100vh;
+}
+
+.txt-about{
+    font-size: 4em;
+    margin-top: 300px;
+}
+
+.des{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    display: block;
+    box-shadow: 5px 5px 10px rgb(82, 82, 82);
+    margin-top: 700px;
+}
